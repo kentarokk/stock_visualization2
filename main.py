@@ -17,3 +17,7 @@ st.sidebar.write("""
 """)
 
 days = st.sidebar.slider("表示日数",1,60,30)
+
+st.write(f"""
+### 過去**{days}日間**の株価を表示
+""")
