@@ -1,5 +1,4 @@
 import pandas as pd
-from sympy import comp
 import yfinance as yf
 from datetime import datetime as dt
 import altair as alt
